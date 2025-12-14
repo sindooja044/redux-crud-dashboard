@@ -1,7 +1,7 @@
 Steps to Run the Project Locally
 
 1️⃣ Clone the repository
-git clone https://github.com/your-username/react-redux-crud-dashboard.git
+git clone https://github.com/sindooja044/redux-crud-dashboard.git
 
 2️⃣ Navigate to the project folder
 cd react-redux-crud-dashboard
