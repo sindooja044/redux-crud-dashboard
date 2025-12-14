@@ -13,10 +13,12 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div>
-      <h2>Users Dashboard</h2>
+    <div className="min-h-screen bg-gray-100 flex justify-center items-start py-10">
+      <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg p-6">
+      <h2 className="text-2xl font-bold text-center mb-6">Users Dashboard</h2>
       <UserForm editUser={editUser} setEditUser={setEditUser} />
       <UsersTable setEditUser={setEditUser} />
+    </div>
     </div>
   );
 }
